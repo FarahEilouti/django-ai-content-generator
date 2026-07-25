@@ -1,0 +1,8 @@
+from rest_framework import serializers
+from .models import User
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        # This will output all the fields of the User model in the API response
+        fields = ['id', 'name', 'phone_number', 'created_at', 'updated_at', 'is_active']

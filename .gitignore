@@ -1,0 +1,67 @@
+# Python/Django
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+ENV/
+.env
+.venv/
+
+# SQLite
+db.sqlite3
+*.sqlite3
+
+# Django
+*.log
+staticfiles/
+media/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Pytest
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Virtualenv
+*.egg
+.env
+*.sqlite3
+.venv
+# Ignore Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.idea/
+*.iml
+
+# Optional: large binaries
+*.so
+*.bin
+venv
