@@ -7,8 +7,6 @@ from rest_framework import status
 from blog.models import Post
 #
 from ai.content.content_service import summarize_post
-from .summarize_post import summarize_post_view
-from .services import summarize_post
 
 @api_view(['POST'])
 def summarize_post_view(request, post_id):

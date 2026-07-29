@@ -7,8 +7,7 @@ class Post(models.Model):
     title = models.CharField(max_length=100)
     cont = models.TextField(max_length=500)
     date = models.DateField()
-    summary = models.TextField(max_length=200)
-
+    summary = models.TextField(max_length=200, blank=True, default='')
     summary_generated_at = models.DateTimeField(null=True, blank=True)
 
     user = models.ForeignKey(User, 
